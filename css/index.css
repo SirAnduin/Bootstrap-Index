@@ -1,0 +1,438 @@
+@import url("common.css");
+/*头部LOGO及导航部分*/
+/*最上方的导航条的框架div*/
+.naviDiv {
+	margin-top: 1%;
+}
+/*导航条内的logo标签*/
+.naviImg {
+	float: left;
+	margin-left: 25%;
+}
+/*网站首页等四个ul*/
+.naviUl {
+	float: left;
+	margin-left: 15%;
+	margin-top: 1%;
+}
+.naviA {
+	color: rgb(51,51,51);
+	font-size: 1.8em;
+}
+
+
+/*图片轮换部分*/
+/*图片轮播的div*/
+.ppt {
+	margin-top: 1%;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+}
+.pptDiv {
+	width: 100%;
+	padding: 0;
+}
+.item img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+
+/*订单查询整体div*/
+.searchDiv {
+	/*border: solid red 1px;*/
+	background: url(../img/search/searchBackg.png) no-repeat;
+	height: 13.5em;
+	width: 21.5%;
+	position: absolute;
+	left: 15%;
+	top: 60.6%;
+	padding: 0;
+	text-align: center;
+}
+/*订单号查询整体或手机号查询整体div*/
+.orderOrPhoneNumDiv {
+	width: 100%;
+	
+}
+/*运单号查询div*/
+.orderNumDiv {
+	margin-top: 2%;
+}
+/*两个input的div*/
+.searchInputDiv {
+	float: left;
+	margin-left: 4.5%;
+	width: 80%;
+	margin-top: 3%;
+}
+/*两个icon的div*/
+.searchIconDiv {
+	float: left;
+	width: 9.5%;
+	margin-top: 3%;
+}
+/*两个input查询框*/
+.searchInput {
+	width: 100%;
+	height: 2.5em;
+	border: none;
+	border: solid 0.5px rgb(230,230,230);
+}
+/*两个icon*/
+.searchIcon {
+	width: 100%;
+	height: 2.5em;
+	border: none;
+	background-color: white;
+	border: solid 0.5px rgb(230,230,230);
+}
+/*立马查询Btn*/
+.searchNowBtn {
+	background-color: #0353B2;
+	color: white;
+	border: none;
+	width: 90%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-size: 1.25em;
+	margin-left: -2%;
+	margin-top: 3%;
+}
+
+
+
+
+/*首页主要功能部分*/
+/*中部功能条框架div*/
+.mainFunDiv {
+	background-color: rgb(3,83,178);
+	width: 100%;
+	height: 5em;
+	border: solid 1px rgb(3,83,178);
+}
+/*三个功能键的li*/
+.nav {
+	float: left;
+	display: inline;
+	margin-left: 13%;
+	margin-bottom: 1%;
+}
+/*三个img*/
+.mainfunimg {
+	display: inline;
+}
+/*文字*/
+.mainfunword {
+	color: white;
+	margin-left: 1%;
+}
+/*三个功能键整体ul*/
+.mainfun_nav ul {
+	margin-left: 10%;
+}
+/*三个功能键li*/
+.mainfun_nav li {
+	width: 15%;
+	margin-left: 11%;
+	font-size: larger;
+}
+
+/*公告部分*/
+/*公告框架div*/
+.noticeDiv {
+	margin-top: 3%;
+	/*border: solid red 1px;*/
+}
+/*公告图片div*/
+.noticeTopic {
+	background: url(../img/notice/notice_backg.png) no-repeat center top;
+	display: inline-block;
+	width: 9%;
+	text-align: center;
+	float: left;
+	margin-left: 6.5%;
+	/*border: solid red 1px;*/
+	
+}
+/*"公告"*/
+.noticeTopic h2{
+	/*border: solid red 1px;*/
+	margin-top: 0;
+	color: white;
+}
+
+/*公告内容文字div*/
+.noticeWordDiv {
+	float: left;
+	width: 81%;
+	font-family: "微软雅黑";
+	font-size: large;
+}
+/*公告日期*/
+.noticeDate {
+	margin-left: 6%;
+}
+/*公告更多a*/
+.noticeMore {
+	margin-left: 45%;
+}
+
+/*我们的服务部分*/
+/*服务部分整体div*/
+.allServiceDiv {
+	margin-top: 3%;
+}
+/*蓝条*/
+.serviceBluebar {
+	margin-left: 42%;
+}
+/*服务的ul*/
+#tabs-119952 ul {
+	width: 100%;
+	/*border: solid red 1px;*/
+	margin: auto;
+	margin-left: 10%;
+}
+/*服务图标单个*/
+#tabs-119952 li {
+	text-align: center;
+	background-size: 100%;
+	background: url(../img/ourservice/icon/servicebackg.png) no-repeat;
+	background-position: center;
+	margin-left: 1.5%;
+	width: 12%;
+}
+#tabs-119952 a {
+	color: #8C8C8C;
+}
+/*服务图片*/
+.serviceimg_left {
+	/*border: solid red 1px;*/
+	float: left;
+	height: 100%;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+.serviceimg_left img {
+	width: 100%;
+	height: 100%;
+	margin-top: 1%;
+}
+.serviceimg_right_top {
+	/*border: solid red 1px;*/
+	float: left;
+	height: 49%;
+	width: 49%;
+	margin-left: 1%;
+}
+.serviceimg_right_bottom {
+	/*border: solid red 1px;*/
+	float: left;
+	height: 49%;
+	width: 49%;
+	margin-left: 1%;
+	margin-top: 0.5%;
+}
+
+
+/*新闻资讯部分*/
+/*新闻标题div*/
+.allNewsDiv {
+	margin-top: 6%;
+}
+/*蓝条*/
+.newsBluebar {
+	margin-left: 42%;
+}
+/*新闻内容整体div*/
+.newsContent {
+	margin-top: 3%;
+}
+/*新闻内容div*/
+.newsWordAndImgDiv {
+	/*border: solid red 1px;*/
+	width: 105%;
+}
+/*文章下的新闻标题*/
+.newsTopic {
+	font-size: medium;
+	display: inline-block;
+}
+/*【详情】*/
+.newsA {
+	color: red;
+}
+
+
+
+/*促销活动部分*/
+/*标题部分div*/
+.salesTopicDiv {
+	margin-top: 5%;	
+}
+/*蓝条*/
+.salesBluebar {
+	margin-left: 45%;
+}
+/*所有图片及文字div*/
+.salesImgAndWordsDiv {
+	margin-left: 18%;
+	margin-top: 2%;
+	/*border: solid red 1px;*/
+}
+/*单个图片及文字div*/
+.imgAndWordsDiv {
+	width: 38%;
+	border: solid 1px #CCCCCC;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+/*图片div*/
+.salesImgDiv {
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+/*文字div*/
+.salesWordDiv {
+	float: left;
+	margin-left: 4%;
+	margin-top: 3%;
+}
+/*详情整体p*/
+.salesDetailP {
+	margin-top: 4%;
+}
+/*详情a*/
+.salesDetail {
+	color: #0F0F0F;
+}
+/*进行时间*/
+.salesDate {
+	color: red;
+	margin-top: 2.5%;
+}
+/*查看更多*/
+.salesCheckmore {
+	clear: both;
+	margin-right: 22.5%;
+	margin-top: 3%;
+}
+
+
+/*图片广告横幅*/
+.adv {
+	margin-top: 3%;
+}
+
+
+/*合作伙伴部分*/
+/*合作伙伴标题蓝条*/
+.partnerBluebar {
+	margin-left: 45%;
+}
+/*合作伙伴图片整体div*/
+.partnerDiv {
+	text-align: center;
+}
+/*两行div*/
+.partnerTwoLineDiv {
+	margin-top: 1.5%;
+}
+/*每个图片div*/
+.partnerTwoLineDiv > div {
+	display: inline-block;
+	border: solid 1px rgb(170,170,170);
+	margin: 0 0.5%;
+	width: 15%;
+}
+.partnerImg {
+	margin: 4% 2%;
+}
+
+
+
+
+/*页脚整体背景*/
+.indexFoot {
+	background-color: rgb(230,230,230);
+	margin-top: 2%;
+	/*border: solid red 1px;*/
+}
+/*页脚导航栏整体*/
+.footNavi {
+	margin-top: 3%;
+}
+/*页脚logo div*/
+.footLogo {
+	margin-left: 15%;
+}
+/*页脚logoimg*/
+.footLogo img {
+	width: 80%;
+	height: 80%;
+}
+/*页脚导航ul*/
+.footUl {
+	/*border: solid red 1px;*/
+	margin-top: -0.5%;
+	margin-left: 0;
+}
+
+
+/*二维码及电话部分*/
+/*二维码及电话整体div*/
+.QRCodeAndNumberDiv {
+	/*border: solid red 1px;*/
+	margin-top: 1%;
+}
+/*二维码或电话div*/
+.QRCodeOrNumberDiv {
+	float: left;
+	/*border: solid red 1px;*/
+}
+/*二维码div*/
+.QRCodeDiv {
+	width: 50%;
+}
+/*第一个二维码img*/
+.QRCode1 {
+	margin-left: 35%;
+}
+/*第二个二维码img*/
+.QRCode2 {
+	margin-left: 5%;
+}
+/*电话div*/
+.numberDiv {
+	width: 50%;
+	/*border: solid red 1px;*/
+	padding-top: 2%;
+}
+/*电话span*/
+.QRCodeOrNumberDiv > span {
+	display: block;
+	color: rgb(3,83,178);
+	font-family: "微软雅黑";
+	font-weight: bolder;
+	font-size: 2em;
+}
+/*电话span2*/
+.numberSpan2 {
+	margin-top: 2%;
+	margin-left: 7%;
+}
+
+
+/*版权信息部分*/
+.copyright {
+	/*border: solid green 1px;*/
+	margin-top: 15%;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 1.3em;
+}

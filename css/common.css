@@ -1,0 +1,29 @@
+/*通用标题*/
+.allTitle {
+	text-align: center;
+}
+/*标题*/
+.allTitle h1{
+	font-weight: bolder;
+	font-size: 250%;
+	font-family: "微软雅黑";
+}
+/*蓝色bar*/
+.bluebar {
+	display: block;
+	margin-left: 42%;
+}
+/*英文标题*/
+.topicEn {
+	margin-top: 0.5%;
+	color: #D9D9D9;
+	font-weight: lighter;
+	font-size: smaller;
+}
+/*查看更多*/
+.checkmore {
+	float: right;
+	margin-top: 5%;
+	font-size: medium;
+	font-family: arial;
+}
